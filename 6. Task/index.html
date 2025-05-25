@@ -3,27 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Email Signup</title>
-    <link rel="icon" href="./images/email_icon.png" type="image/x-icon" />
+    <title>Test Registration Form</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/email_icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn-images.mailchimp.com/embedcode/classic-061523.css"
+    />
   </head>
   <body>
-    <section class="signup-container">
-      <h1>Join Our Newsletter</h1>
-      <p class="description">Stay updated with the latest news and offers.</p>
-      <form class="signup-form" onsubmit="handleSubmit(event)">
-        <input type="email" placeholder="Enter your email" required />
-        <button type="submit">Subscribe</button>
-      </form>
-      <p id="success-msg" hidden>✅ Thank you for subscribing!</p>
-    </section>
-
-    <script>
-      function handleSubmit(e) {
-        e.preventDefault();
-        document.getElementById("success-msg").hidden = false;
-        e.target.reset();
-      }
-    </script>
+    <div class="wrapper">
+      <section class="wrapper_section">
+        <h1>Join Our Newsletter</h1>
+        <div id="mc_embed_signup">
+          <form
+            action="https://gmail.us1.list-manage.com/subscribe/post?u=e0cf8a31bc5cc7dd3c3aa88c8&amp;id=863e32c193&amp;f_id=00d67be2f0"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+            novalidate
+          >
+            <div id="mc_embed_signup_scroll">
+              <h2>Subscribe</h2>
+              <div class="indicates-required">
+                <span class="asterisk">*</span> indicates required
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL"
+                  >Email Address <span class="asterisk">*</span></label
+                >
+                <input
+                  type="email"
+                  name="EMAIL"
+                  class="required email"
+                  id="mce-EMAIL"
+                  required
+                />
+              </div>
+              <div id="mce-responses" class="clear foot">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display: none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display: none"
+                ></div>
+              </div>
+              <div aria-hidden="true" style="position: absolute; left: -5000px">
+                <input
+                  type="text"
+                  name="b_e0cf8a31bc5cc7dd3c3aa88c8_863e32c193"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+              <div class="optionalParent">
+                <div class="clear foot">
+                  <input
+                    type="submit"
+                    name="subscribe"
+                    id="mc-embedded-subscribe"
+                    class="button"
+                    value="Subscribe"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

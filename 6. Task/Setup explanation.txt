@@ -1,6 +1,5 @@
-*A brief explanation of the Maropost task:
+*Brief Explanation of the task:
 
--Due to Maropost’s enterprise restrictions and required business verification, I could not get access to the actual dashboard.
--As a workaround, I’ve created a fully functional and styled mock form that simulates the behavior of a real Maropost email registration module.
--This includes validation, success handling, and responsiveness.
--Once access is granted, the mock form can be replaced with the Maropost embed snippet.
+-I created an email list in Mailchimp named "Test Registration List" and used Mailchimp’s embedded form builder to generate a registration form.
+-I integrated the form into a custom-built, responsive landing page and applied modern, clean styling using CSS.
+-I tested the form locally to ensure full functionality — email addresses are successfully collected, subscribers appear in the Mailchimp list, and a redirect occurs after a successful submission.
