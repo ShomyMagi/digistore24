@@ -1,0 +1,39 @@
+/* CTA Section Styles */
+.cta {
+  border-top: 1px solid #ad8d49;
+}
+
+.cta_feature {
+  position: relative;
+  background-image: url("../images/background_light.png");
+  background-size: cover;
+  background-position: center;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.cta_feature h1 {
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.cta_feature button {
+  font-weight: 700;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #ad8d49;
+  border: 1px solid #ad8d49;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta_feature button:hover {
+  background-color: #96753e;
+}

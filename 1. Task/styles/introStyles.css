@@ -1,0 +1,55 @@
+/* Intro Section Styles */
+.intro_feature {
+  background-color: #ad8d49;
+  padding: 5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.intro_feature_section {
+  max-width: 50rem;
+}
+
+.intro_feature_section h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.intro_feature_section p {
+  font-weight: 500;
+  font-size: 1.3125rem;
+  line-height: 1.2;
+}
+
+.intro_feature_section button {
+  font-weight: 500;
+  line-height: 1;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.3125rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 1.25rem 0;
+}
+
+.intro_feature_section button:hover {
+  background-color: #1d1d1c;
+}
+
+.intro_feature_section hr {
+  width: 12.5rem;
+  background-color: #ffffff99;
+}
+
+.intro_feature_section_first_heading {
+  margin-top: 0;
+}

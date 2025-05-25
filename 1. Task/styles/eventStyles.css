@@ -1,0 +1,54 @@
+/* Event Section Styles */
+.event_feature {
+  position: relative;
+  background: linear-gradient(to right, #8c794b, #b99f6000),
+    url("../images/background_race.png");
+  background-size: cover;
+  background-position: center;
+  padding: 8.75rem 0 8.75rem 7.5rem;
+  box-sizing: border-box;
+}
+
+.event_feature_overlay {
+  max-width: 41.25rem;
+}
+
+.event_feature_overlay h1 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.event_feature_overlay h2 {
+  font-weight: 500;
+  font-size: 2.625rem;
+  line-height: 1;
+}
+
+.event_feature_overlay p {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.event_feature_overlay hr {
+  background-color: #ffffff99;
+  width: 12.5rem;
+  margin: 0;
+}
+
+.event_feature_overlay button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  font-size: 1.3125rem;
+  line-height: 1;
+  margin-top: 1.25rem;
+  cursor: pointer;
+}
+
+.event_feature_overlay button:hover {
+  background-color: #1d1d1c;
+}

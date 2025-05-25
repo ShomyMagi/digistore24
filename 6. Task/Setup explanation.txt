@@ -1,0 +1,6 @@
+*A brief explanation of the Maropost task:
+
+-Due to Maropost’s enterprise restrictions and required business verification, I could not get access to the actual dashboard.
+-As a workaround, I’ve created a fully functional and styled mock form that simulates the behavior of a real Maropost email registration module.
+-This includes validation, success handling, and responsiveness.
+-Once access is granted, the mock form can be replaced with the Maropost embed snippet.

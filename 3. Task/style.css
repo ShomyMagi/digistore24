@@ -1,0 +1,57 @@
+:root {
+  --accordion-spacing: 1rem;
+  --accordion-chevron-size: 1rem;
+  --accordion-header-color: #333;
+  --accordion-chevron-color: #666;
+  --accordion-hover-color: #007bff;
+  --accordion-focus-outline: 0.125rem solid #0056b3;
+}
+
+.accordion {
+  border-bottom: 0.0625rem solid #ccc;
+  margin-bottom: var(--accordion-spacing);
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: var(--accordion-spacing);
+  background-color: #f9f9f9;
+  color: var(--accordion-header-color);
+  outline: none;
+}
+
+.accordion-header:hover {
+  color: var(--accordion-hover-color);
+}
+
+.accordion-header:focus-visible {
+  outline: var(--accordion-focus-outline);
+}
+
+.accordion-chevron {
+  font-size: var(--accordion-chevron-size);
+  color: var(--accordion-chevron-color);
+  transition: transform 0.3s ease;
+}
+
+.accordion-header[aria-expanded="true"] .accordion-chevron {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.accordion-body.open {
+  max-height: 30rem;
+}
+
+.accordion-content {
+  padding: var(--accordion-spacing);
+  background-color: #fff;
+}

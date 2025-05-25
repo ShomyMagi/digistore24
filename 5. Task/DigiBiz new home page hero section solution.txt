@@ -1,0 +1,7 @@
+*My approach to design and UX the new hero section for the DigiBiz:
+
+-For DigiBiz’s homepage hero section, I’d take a user-first approach, focusing on clarity, trust, and visual impact.
+-The design would feature a bold, benefit-driven headline with a concise subheadline explaining how DigiBiz solves a key business problem.
+-I’d include a clear call-to-action like “Get Started Free,” paired with a product visual or short video to immediately communicate value.
+-To build credibility, I’d add trust signals such as client logos or testimonials.
+-The layout would be clean, responsive, and optimized to guide users toward conversion without distractions.

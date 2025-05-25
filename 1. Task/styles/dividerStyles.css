@@ -1,0 +1,12 @@
+/* Divider Section Styles */
+.divider_feature {
+  background-color: black;
+  text-align: center;
+  padding: 3.125rem 7.5rem;
+}
+
+.divider_feature p {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 1;
+}

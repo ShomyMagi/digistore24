@@ -1,0 +1,94 @@
+/* Hero Section Styles */
+.hero_feature {
+  position: relative;
+  background: linear-gradient(
+      to right,
+      black 0rem,
+      black 18.75rem,
+      transparent 18.75rem
+    ),
+    url("../images/background_city.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.hero_feature_logo {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  width: 11.25rem;
+}
+
+.hero_feature_overlay {
+  max-width: 87.5rem;
+  padding: 7.5rem 7.5rem 7.5rem 10rem;
+}
+
+.hero_feature_overlay h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1.25rem;
+}
+
+.hero_feature_overlay h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.hero_feature_overlay p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.hero_info_row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7.5rem;
+}
+
+.hero_info_row_section {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  max-width: 18.75rem;
+}
+
+.hero_info_row_section img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.hero_info_row_section p {
+  font-weight: 400;
+  font-size: 1.125rem;
+  text-transform: none;
+}
+
+.hero_info_row_section button {
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  line-height: 1;
+  color: white;
+  background-color: #ad8d49;
+  border: 1px solid #ad8d49;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hero_info_row_section button:hover {
+  background-color: #96753e;
+}

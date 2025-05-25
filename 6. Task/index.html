@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Signup</title>
+    <link rel="icon" href="./images/email_icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="signup-container">
+      <h1>Join Our Newsletter</h1>
+      <p class="description">Stay updated with the latest news and offers.</p>
+      <form class="signup-form" onsubmit="handleSubmit(event)">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+      <p id="success-msg" hidden>✅ Thank you for subscribing!</p>
+    </section>
+
+    <script>
+      function handleSubmit(e) {
+        e.preventDefault();
+        document.getElementById("success-msg").hidden = false;
+        e.target.reset();
+      }
+    </script>
+  </body>
+</html>

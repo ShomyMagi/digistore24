@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Accordion</title>
+    <link rel="icon" href="./images/accordion_icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Reusable Accordion</h1>
+
+    <div class="accordion">
+      <div
+        class="accordion-header"
+        tabindex="0"
+        role="button"
+        aria-expanded="false"
+        aria-controls="accordion-content-1"
+        id="accordion-header-1"
+      >
+        <span class="accordion-label">Section 1</span>
+        <span class="accordion-subtext">More details</span>
+        <span class="accordion-chevron">▼</span>
+      </div>
+
+      <div
+        class="accordion-body"
+        id="accordion-content-1"
+        role="region"
+        aria-labelledby="accordion-header-1"
+      >
+        <div class="accordion-content">
+          <h3>
+            This is the content for Section 1. It's revealed when expanded.
+          </h3>
+          <p>
+            This section provides a comprehensive introduction to the topic. It
+            covers the key concepts and background information necessary to
+            understand the rest of the content.
+          </p>
+          <p>
+            You'll find summaries, definitions, and important context that will
+            set the stage for deeper exploration.
+          </p>
+          <ul>
+            <li>Overview of the main ideas</li>
+            <li>Historical context</li>
+            <li>Terminology and key definitions</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div
+        class="accordion-header"
+        tabindex="0"
+        role="button"
+        aria-expanded="false"
+        aria-controls="accordion-content-2"
+        id="accordion-header-2"
+      >
+        <span class="accordion-label">Section 2</span>
+        <span class="accordion-subtext">More info</span>
+        <span class="accordion-chevron">▼</span>
+      </div>
+
+      <div
+        class="accordion-body"
+        id="accordion-content-2"
+        role="region"
+        aria-labelledby="accordion-header-2"
+      >
+        <div class="accordion-content">
+          <h3>
+            This is the content for Section 2. It expands and collapses
+            properly.
+          </h3>
+          <p>
+            In this section, we dive deeper into the mechanics and specifics.
+            You will get step-by-step explanations and examples to illustrate
+            each point clearly.
+          </p>
+          <p>
+            The content is designed to provide thorough understanding through
+            practical insights and real-world applications.
+          </p>
+          <ol>
+            <li>Step-by-step process description</li>
+            <li>Case studies and examples</li>
+            <li>Common pitfalls and how to avoid them</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion">
+      <div
+        class="accordion-header"
+        tabindex="0"
+        role="button"
+        aria-expanded="false"
+        aria-controls="accordion-content-3"
+        id="accordion-header-3"
+      >
+        <span class="accordion-label">Section 3</span>
+        <span class="accordion-subtext">More Resources</span>
+        <span class="accordion-chevron">▼</span>
+      </div>
+
+      <div
+        class="accordion-body"
+        id="accordion-content-3"
+        role="region"
+        aria-labelledby="accordion-header-3"
+      >
+        <div class="accordion-content">
+          <h3>
+            This is the content for Section 3. It smoothly reveals additional
+            information when expanded.
+          </h3>
+          <p>
+            This section lists further reading materials, links to tutorials,
+            videos, and other resources to deepen your knowledge.
+          </p>
+          <p>
+            Make sure to explore these to enhance your learning experience and
+            stay updated.
+          </p>
+          <ul>
+            <li>
+              <a href="https://example.com/tutorial">Comprehensive Tutorial</a>
+            </li>
+            <li><a href="https://example.com/video">Instructional Video</a></li>
+            <li><a href="https://example.com/article">In-depth Article</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

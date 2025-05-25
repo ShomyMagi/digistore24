@@ -1,0 +1,11 @@
+*How to Validate if the Pixel is Firing?
+
+*To validate the Facebook Pixel fires correctly, I would:
+
+-Use Facebook Pixel Helper — a Chrome browser extension by Facebook that detects pixels on the page, shows whether they fired, and lists errors.
+
+-Check Facebook Events Manager — after the pixel is implemented, Facebook’s dashboard shows real-time event tracking.
+
+-Use browser developer tools — in the Network tab, there are requests to https://www.facebook.com/tr or the pixel script fbevents.js.
+
+-Check server logs or analytics if I have access to backend data.

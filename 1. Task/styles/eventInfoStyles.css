@@ -1,0 +1,85 @@
+/* Event Info Section Styles */
+.event_info_feature {
+  background-color: #ad8d49;
+  padding: 5rem 7.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.event_info_head h1 {
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.event_info_head hr {
+  background-color: #ffffff99;
+}
+
+.event_info_footer {
+  text-align: center;
+  margin-top: 3.125rem;
+}
+
+.event_info_footer button {
+  font-weight: 500;
+  font-size: 1.3125rem;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: -0.0125rem;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  max-width: 22.25rem;
+}
+
+.event_info_footer button:hover {
+  background-color: #1d1d1c;
+}
+
+.event_info_row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+}
+
+.event_info_row_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event_info_row_section img {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.event_info_row_section p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.event_info_row_section h3 {
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.event_info_row_section_item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}

@@ -1,0 +1,49 @@
+Critique of Apple Watch Series 9 Sales Page (https://www.apple.com/watch)
+
+1. Issue: Low Contrast in Typography
+*Problem: Some body text (e.g., product descriptions and feature blurbs) uses a gray-on-white palette with thin font weights. This can be hard to read, especially for users with visual impairments or those in bright lighting.
+
+*Suggestion:
+
+-Increase color contrast (e.g., switch to a darker gray like #333 or even black for paragraph content).
+
+-Slightly increase font weight to improve legibility.
+
+*Reasoning:
+
+-Enhances accessibility (meets WCAG standards).
+
+-Improves readability for a broader range of users (older adults, users on mobile).
+
+2. Issue: Primary Call-to-Action ("Buy") Is Not Sticky or Repetitive
+*Problem: The "Buy" button is visible only at specific points on the page and disappears as users scroll. For a long-scroll sales page, this risks losing conversions.
+
+*Suggestion:
+
+-Add a sticky “Buy” button or a floating CTA on scroll (especially on mobile).
+
+-Alternatively, repeat the CTA after key sections (e.g., after feature explanations or testimonials).
+
+*Reasoning:
+
+-Keeps the conversion action visible.
+
+-Reduces friction for users who decide to buy mid-scroll.
+
+3. Issue: Overwhelming Footer Content
+*Problem: The footer contains a very large block of legal and informational text, presented as a long, unbroken column. It overwhelms the end of the page and makes it harder for users to find key links (like Support or Privacy).
+
+*Suggestion:
+
+-Group legal disclosures and less frequently used information into collapsible accordions or “More” dropdowns.
+
+-Keep key navigation (Support, Contact, Privacy, etc.) immediately visible.
+
+*Reasoning:
+
+-Improves information hierarchy and scannability.
+
+-Reduces cognitive overload and creates a cleaner visual endpoint.
+
+-Mobile users especially benefit from shorter scroll areas and collapsible sections.
+

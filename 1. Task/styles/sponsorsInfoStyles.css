@@ -1,0 +1,33 @@
+/* Sponsors Info Section Styles */
+.sponsors_info_feature {
+  background-color: black;
+  padding: 5rem;
+  box-sizing: border-box;
+}
+
+.sponsors_info_feature_section {
+  display: flex;
+  gap: 7.5rem;
+}
+
+.sponsors_info_feature_section h1 {
+  font-weight: 500;
+  font-size: 3.75rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.sponsors_info_feature_section hr {
+  background-color: #ffffff99;
+}
+
+.sponsors_info_feature_section p {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.sponsors_info_feature_section img {
+  width: 10rem;
+}
